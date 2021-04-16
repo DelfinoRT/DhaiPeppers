@@ -154,7 +154,7 @@ width: 100%;
     margin: 5px;
   }
   .gallery .image{
-    width: 100%;
+    width: calc(100% / 2);
   }
 }
 
