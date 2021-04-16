@@ -158,8 +158,18 @@ width: 100%;
   }
 }
 
+.recursos {
+  background-color: #fffadb;
+  padding: 30px;
+}
 
+.recurso {
+  background-color: #c7bf8b;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 17px;
 
+}
 
 
 
@@ -314,4 +324,45 @@ footer{
   .main-content .box{
     margin: 5px 0;
   }
+}
+
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(34, 34, 34);
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: #d3df2d;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #111;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #111;
+  color: #d3df2d;
+  font-weight: 800;
+}
+
+.active {
+  background-color: #111;
+  color: #d3df2d;
+  font-weight: 800;
 }
