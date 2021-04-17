@@ -28,7 +28,7 @@ body {
 .banner {
   display:block;
   margin:auto;
-  padding: 80px;
+  padding: 5%;
 }
 
 .imagen {
@@ -122,6 +122,7 @@ width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
+  margin-bottom: 80px;
 }
 .gallery .image{
   width: calc(100% / 4);
@@ -222,6 +223,35 @@ width: 100%;
   text-align: center;
   margin-bottom: 40px;
 }
+
+@media only screen and (max-width: 420px) {
+
+  .textorecursos { 
+     font-size: 1.5rem; 
+  }
+}
+
+@media only screen and (max-width: 420px) {
+
+  .section1a { 
+     font-size: 1rem; 
+  }
+}
+
+@media only screen and (max-width: 420px) {
+
+  .section1b { 
+     font-size: 1rem; 
+  }
+}
+
+@media only screen and (max-width: 420px) {
+
+  .name { 
+     font-size: 0.7rem; 
+  }
+}
+
 .amigos {
   background-color: #1E1E1E;
   padding: 30px;
