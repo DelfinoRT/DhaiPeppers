@@ -10,11 +10,25 @@
   background: #007bff;
 }
 
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
-  background-color: #252525;
+  background-color: rgb(22, 22, 22);
 }
 .logo {
-  margin: 20px;
+  padding: 40px;
+  width: 100%;
+  background-color: #111111;
+}
+
+.banner {
+  display:block;
+  margin:auto;
+  padding: 80px;
 }
 
 .imagen {
@@ -22,7 +36,16 @@ width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  border-radius: 15px;
 }
+
+.imagen2 img{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 15px;
+  }
 
 .section1 {
   background-color: #1E1E1E;
@@ -74,6 +97,7 @@ width: 100%;
   max-height: 35px;
   padding: 5px;
 }
+
 
 .items span{
   padding: 7px 25px;
@@ -180,14 +204,26 @@ width: 100%;
   font-size: 17px;
   font-weight: 700;
   color: #fffadbd7;
+  width: 50%;
+  display: block;
+  margin: auto;
+  text-align: center;
 }
 
 .recurso1 {
   padding: 5px;
-  font-size: 17px;
+  font-size: 21px;
   color: #fffadbd7;
+  font-weight: 700;
 }
 
+.textorecursos {
+  color: #fffadbd7;
+  font-size: 26px;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 40px;
+}
 .amigos {
   background-color: #1E1E1E;
   padding: 30px;
@@ -361,7 +397,6 @@ footer{
   overflow: hidden;
   background-color: rgb(22, 22, 22);
   position: relative;
-  margin-bottom: 10px;
 }
 
 .topnav #myLinks {
@@ -377,7 +412,7 @@ footer{
 }
 
 .topnav a.icon {
-  background: #111;
+  background: rgb(37, 37, 37);
   display: block;
   position: absolute;
   right: 0;
@@ -395,3 +430,15 @@ footer{
   color: #d3df2d;
   font-weight: 800;
 }
+
+
+
+.instafeed {
+  background-color: rgb(48, 47, 47);
+  padding: 20px;
+}
+
+
+
+
+
